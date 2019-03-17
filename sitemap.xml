@@ -3,6 +3,11 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>https://projekthilfe-uganda.de/home/header-startseite/</loc>
+    <lastmod>2019-03-17T12:55:37+00:00</lastmod>
+  </url>
+  
+  <url>
     <loc>https://projekthilfe-uganda.de/home/schulprojekte/</loc>
     <lastmod>2019-03-17T12:49:02+00:00</lastmod>
   </url>
@@ -29,13 +34,13 @@
   
   <url>
     <loc>https://projekthilfe-uganda.de/home/</loc>
-    <lastmod>2019-03-17T12:49:02+00:00</lastmod>
+    <lastmod>2019-03-17T12:55:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
   <url>
     <loc>https://projekthilfe-uganda.de/</loc>
-    <lastmod>2019-03-17T12:49:02+00:00</lastmod>
+    <lastmod>2019-03-17T12:55:37+00:00</lastmod>
     <priority>0</priority>
   </url>
   
