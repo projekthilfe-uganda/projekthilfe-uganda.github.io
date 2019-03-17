@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projekthilfe Uganda</title>
-    <link>https://projekthilfe-uganda.de/</link>
-    <description>Recent content on Projekthilfe Uganda</description>
+    <title>Homes on Projekthilfe Uganda</title>
+    <link>https://projekthilfe-uganda.de/home/</link>
+    <description>Recent content in Homes on Projekthilfe Uganda</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>de</language>
     <lastBuildDate>Sun, 17 Mar 2019 11:45:14 +0000</lastBuildDate>
     
-	<atom:link href="https://projekthilfe-uganda.de/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="https://projekthilfe-uganda.de/home/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
@@ -19,15 +19,6 @@
       <guid>https://projekthilfe-uganda.de/home/projekthilfe-uganda/</guid>
       <description>Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test
 Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test Test test</description>
-    </item>
-    
-    <item>
-      <title>Unser Verein</title>
-      <link>https://projekthilfe-uganda.de/verein/unser-verein/</link>
-      <pubDate>Sun, 03 Feb 2019 16:32:58 +0000</pubDate>
-      
-      <guid>https://projekthilfe-uganda.de/verein/unser-verein/</guid>
-      <description>84 % der Ugander leben im Buschland und 40 % in bitterer Armut. In unserer Gegend haben fast ein Viertel der Jugendlichen Aids. Man lebt in sehr kleinen Häuschen, die mit alten Wellblechstücken oder Gras belegt sind. Fenster gibt es keine oder sie sind zugenagelt. Vielleicht gibt es 1-2 Bett-gestelle, oft gibt es nichts, nicht einmal Wolldecken. Gekocht wird auf 3 Steinen und zwar das, was um das Haus herum wächst.</description>
     </item>
     
   </channel>
