@@ -78,6 +78,10 @@
   </url>
   
   <url>
+    <loc>https://projekthilfe-uganda.de/shop/items/folie-f%C3%BCr-ein-wasserloch/</loc>
+  </url>
+  
+  <url>
     <loc>https://projekthilfe-uganda.de/home/</loc>
     <lastmod>2019-03-17T13:20:08+00:00</lastmod>
     <priority>0</priority>
@@ -92,6 +96,11 @@
   <url>
     <loc>https://projekthilfe-uganda.de/</loc>
     <lastmod>2019-03-17T15:52:56+00:00</lastmod>
+    <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://projekthilfe-uganda.de/shop/</loc>
     <priority>0</priority>
   </url>
   
