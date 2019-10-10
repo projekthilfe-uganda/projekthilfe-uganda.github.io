@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projekthilfe Uganda</title>
+    <link>https://projekthilfe-uganda.de/verein/auszeichnungen/</link>
+    <description>Recent content on Projekthilfe Uganda</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>de</language>
+    
+	<atom:link href="https://projekthilfe-uganda.de/verein/auszeichnungen/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Auszeichnungen</title>
+      <link>https://projekthilfe-uganda.de/verein/auszeichnungen/auszeichnungen/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://projekthilfe-uganda.de/verein/auszeichnungen/auszeichnungen/</guid>
+      <description>Für die jahrzehntelange ehrenamtliche Arbeit wurden der gemeinnützige Verein Projekthilfe Uganda bereits mehrfach ausgezeichnet.
+ 1987 – Urkunde und Medaille des Landes Baden- Württemberg als vorbildliche kommunale Bürgeraktion 2005 – Empfehlung unserer Projektarbeit durch die deutsche Botschaft in Kampala 2007 – 1. Preis beim Ehrenamtswettbewerb des Landes Baden-Württemberg Bundesverdienstkreuz für Christel Henecka, unsere Vereinsvorsitzende  </description>
+    </item>
+    
+  </channel>
+</rss>
