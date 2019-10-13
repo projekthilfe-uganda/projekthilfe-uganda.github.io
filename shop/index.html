@@ -165,7 +165,26 @@
 
 
 <div id="content">
-    <div  class="article container mt-5 mb-5">
+    <script src="/js/phuganda.js"></script>
+    <div id="cart" class="card m-5 float-right position-absolute" style="width: 18rem; right: 0">
+        <div class="card-body">
+            <h4 class="card-title text-right">Meine Auswahl</h4>
+        </div>
+        <div class="card-body">
+            <table class="w-100">
+                <tbody id="cart_content" class="align-text-top">
+                </tbody>
+            </table>
+        </div>
+        <div class="card-body text-right">
+            <p class="mt-2">Summe: <span id="cart-sum">123</span>€</p>
+            <button onclick="cart.Clear()" class="btn btn-secondary w-45 float-left">Leeren</button>
+            <button class="btn btn-primary w-45">Spenden</button>
+        </div>
+    </div>
+
+    <div class="float-left" style="margin-right: 18rem">
+        <div  class="article container mt-5 mb-5">
     
         <h1>Spendenshop</h1>
     
@@ -196,16 +215,16 @@
     </div>
     <input class="amount" type="text" value="1"/>
     <input class="price" type="hidden" value="30">
-    <button onclick="cart.Add(&#34;folie_wasserloch&#34;);">Add</button>
+    <button onclick="cart.Add(&#34;folie_wasserloch&#34;, &#34;Folie für ein Wasserloch&#34;);">Add</button>
 </div>
 
 
+    </div>
 
             </div>
 
 <script src="/js/jquery-3.3.1.slim.min.js"></script>
 <script src="/js/bootstrap.bundle.js"></script>
-<script src="/js/phuganda.js"></script>
 
 </div>
     </body>
