@@ -1,0 +1,16 @@
+{
+    "data": {
+    "section": "shop",
+    "count": "2",
+    "items": [{"type": "article"
+}
+, {"type": "shopitem",
+"title": "Folie für ein Wasserloch",
+"content": "\u003cp\u003e\u0026hellip; mit Anleitung. Sichert die Maisernte und damit die Ernährung, sichert das Schweinefutter.\u003c/p\u003e\n",
+"id": "folie_wasserloch",
+"picture": "/uploads/Wasserreservoir.jpg",
+"price": 30
+}
+]
+    }
+}

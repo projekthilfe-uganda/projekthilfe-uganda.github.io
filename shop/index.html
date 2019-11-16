@@ -165,26 +165,13 @@
 
 
 <div id="content">
-    <script src="/js/phuganda.js"></script>
-    <div id="cart" class="card m-5 float-right position-absolute" style="width: 18rem; right: 0">
-        <div class="card-body">
-            <h4 class="card-title text-right">Meine Auswahl</h4>
-        </div>
-        <div class="card-body">
-            <table class="w-100">
-                <tbody id="cart_content" class="align-text-top">
-                </tbody>
-            </table>
-        </div>
-        <div class="card-body text-right">
-            <p class="mt-2">Summe: <span id="cart-sum">123</span>€</p>
-            <button onclick="cart.Clear()" class="btn btn-secondary w-45 float-left">Leeren</button>
-            <button class="btn btn-primary w-45">Spenden</button>
-        </div>
-    </div>
-
-    <div class="float-left" style="margin-right: 18rem">
-        <div  class="article container mt-5 mb-5">
+    <div id="shop" class="container" style="width: 90%">
+        <div class="row mt-5">
+            <div class="col-8">
+                <div class="container">
+                    <div class="row">
+                        
+                            <div  class="article container mt-5 mb-5">
     
         <h1>Spendenshop</h1>
     
@@ -201,30 +188,86 @@
 
 
 
+                        
+                            
+                        
+                    </div>
+                </div>
+            </div>
+
+            <div v-if="cartItems.length" class="col-4 p">
+                <div id="cart" class="card">
+                    <div class="card-body">
+                        <h4 class="card-title text-right">Meine Auswahl</h4>
+                    </div>
+                    <div class="card-body">
+                        <table class="w-100">
+                            <tbody id="cart_content" class="align-text-top">
+                            <tr is="cart-item" v-for="item in cartItems" :key="item.type"
+                                :type="item.type"
+                                :caption="item.caption"
+                                :amount="item.amount"
+                            ></tr>
+                            </tbody>
+                        </table>
+                    </div>
+                    <div class="card-body text-right">
+                        <p class="mt-2">Summe: [[ cartSum ]]€</p>
+                        <button @click="clear" class="btn btn-secondary w-45 float-left">Leeren</button>
+                        <button class="btn btn-primary w-45">Spenden</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="row mt-5">
+            
+                
+            
+                
 
 
 
-<div  class="shopitem container mt-5 mb-5">
-    Folie für ein Wasserloch
+<div class="shopitem col-6">
+    <h3>Folie für ein Wasserloch</h3>
     <div class="content">
         <p>&hellip; mit Anleitung. Sichert die Maisernte und damit die Ernährung, sichert das Schweinefutter.</p>
 
     </div>
     <div>
-        <img src="/uploads/Wasserreservoir.jpg" width="400px"/>
+        <img src="/uploads/Wasserreservoir.jpg" width="540px"/>
     </div>
-    <input class="amount" type="text" value="1"/>
-    <input class="price" type="hidden" value="30">
-    <button onclick="cart.Add(&#34;folie_wasserloch&#34;, &#34;Folie für ein Wasserloch&#34;);">Add</button>
+    
+
+    <div class="float-right">
+        <span>Spende:</span><span class="d-inline-block text-right" style="width: 75px">30€</span>
+        <button @click="add('folie_wasserloch', 'Folie für ein Wasserloch', 1, 30);"
+                class="btn btn-secondary pl-4 pr-4 m-4">Add
+        </button>
+    </div>
 </div>
 
 
+            
+        </div>
+
+
     </div>
+
+    <script type="text/x-template" id="cart-item">
+        <tr>
+            <td class="text-right pr-2">[[ amount ]]x</td>
+            <td>[[ caption ]]</td>
+            <td class="text-right">[[ total ]]€</td>
+        </tr>
+    </script>
 
             </div>
 
-<script src="/js/jquery-3.3.1.slim.min.js"></script>
+<script src="/js/jquery-3.4.1.min.js"></script>
+<script src="/js/vue.js"></script>
 <script src="/js/bootstrap.bundle.js"></script>
+<script src="/js/phuganda.js"></script>
 
 </div>
     </body>
