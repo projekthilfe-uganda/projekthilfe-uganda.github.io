@@ -1,8 +1,9 @@
 {
     "data": {
     "section": "verein",
-    "count": "1",
-    "items": [{"type": "article"
+    "count": "2",
+    "items": [{}
+, {"type": "article"
 }
 ]
     }
