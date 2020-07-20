@@ -1,16 +1,1 @@
-{
-    "data": {
-    "section": "shop",
-    "count": "2",
-    "items": [{"type": "article"
-}
-, {"type": "shopitem",
-"title": "Folie für ein Wasserloch",
-"content": "\u003cp\u003e\u0026hellip; mit Anleitung. Sichert die Maisernte und damit die Ernährung, sichert das Schweinefutter.\u003c/p\u003e\n",
-"id": "folie_wasserloch",
-"picture": "/uploads/Wasserreservoir.jpg",
-"price": 30
-}
-]
-    }
-}
+{"data":{"section":"shop","count":"2","items":[{"UniqueID":"d092f8d6e292713374fb00c09a6c2cf2","Lastmod":"2019-03-17T11:45:14Z","PublishDate":"2019-03-17T11:45:14Z","ExpiryDate":"0001-01-01T00:00:00Z","Kind":"page","Section":"shop","Date":"2019-03-17T11:45:14Z","URL":"/shop/shop/","Dir":"shop/","Path":"shop/shop.md","Content":"\u003cp\u003eShop introduction\u0026hellip;\u003c/p\u003e\n","TableOfContents":"","Params":{"date":"2019-03-17T11:45:14Z","draft":false,"h1":"Spendenshop","h2":"","h3":"","iscjklanguage":false,"lastmod":"2019-03-17T11:45:14Z","order":20,"publishdate":"2019-03-17T11:45:14Z","title":"Shop Intro","type":"article"}},{"UniqueID":"d195320707df95bcabf9773fd0bf2f03","Lastmod":"0001-01-01T00:00:00Z","PublishDate":"0001-01-01T00:00:00Z","ExpiryDate":"0001-01-01T00:00:00Z","Kind":"page","Section":"shop","Date":"0001-01-01T00:00:00Z","URL":"/shop/items/folie-f%C3%BCr-ein-wasserloch/","Dir":"shop/items/","Path":"shop/items/folie-für-ein-wasserloch.md","Content":"\u003cp\u003e\u0026hellip; mit Anleitung. Sichert die Maisernte und damit die Ernährung, sichert das Schweinefutter.\u003c/p\u003e\n","TableOfContents":"","Params":{"draft":false,"identifier":"folie_wasserloch","iscjklanguage":false,"order":10,"picture":"/uploads/Wasserreservoir.jpg","price":30,"title":"Folie für ein Wasserloch","type":"shopitem"}}]}}
